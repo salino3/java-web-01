@@ -20,5 +20,9 @@ public class Main {
         lesson1.printResultRating();
         System.out.println(lesson1.getRatingValue());
         System.out.println(lesson1.getRatingValue() + "10");
+        lesson1.executeAllLesson_01();
+        Lesson_01.GreetingFromCalcutationInstruction();
+        System.out.println(5 + 7 % 3);
+
     }
 }
