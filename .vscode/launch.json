@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Sum",
+      "request": "launch",
+      "mainClass": "Sum",
+      "projectName": "java-web-01_291efa87"
+    },
+    {
+      "type": "java",
+      "name": "Variables",
+      "request": "launch",
+      "mainClass": "Variables",
+      "projectName": "java-web-01_291efa87"
+    },
+    {
+      "type": "java",
       "name": "Errors",
       "request": "launch",
       "mainClass": "Errors",
