@@ -1,5 +1,7 @@
+package classes;
+
 public class Sum {
-    int age = 25;
+    public int age = 25;
 
     public static void sumNumbers(String args[]) {
         int num_1 = 5;
