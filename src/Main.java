@@ -19,5 +19,6 @@ public class Main {
         System.out.println("------------------------------------");
         lesson1.printResultRating();
         System.out.println(lesson1.getRatingValue());
+        System.out.println(lesson1.getRatingValue() + "10");
     }
 }

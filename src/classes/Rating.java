@@ -16,5 +16,10 @@ public class Rating {
     public void printResultRating() {
 
         System.out.println(rating >= 6 ? "You have approved!" : "You did not approved!");
+        if (rating >= 6) {
+            System.out.println("Bravo!");
+        } else {
+            System.out.println("You need to work harder!");
+        }
     }
 }
