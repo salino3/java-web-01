@@ -1,16 +1,16 @@
 package classes;
 
 public class Rating {
+    public int math;
+    public int biologic;
+    public int chemistry;
     public int rating = 0;
 
-    public Rating() {
-
-        int math = 5;
-        int biologic = 8;
-        int chemistry = 7;
-
-        rating = (math + biologic + chemistry) / 3;
-
+    public Rating(int math, int biologic, int chemistry) {
+        this.math = math;
+        this.biologic = biologic;
+        this.chemistry = chemistry;
+        this.rating = (math + biologic + chemistry) / 3;
     }
 
     public void printResultRating() {
