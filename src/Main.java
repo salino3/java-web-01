@@ -23,7 +23,7 @@ public class Main {
         // System.out.println(lesson1.getRatingValue());
         // System.out.println(lesson1.getRatingValue() + "10");
         // lesson1.executeAllLesson_01();
-        Lesson_01.GreetingFromCalcutationInstruction();
+        // Lesson_01.GreetingFromCalcutationInstruction();
         Lesson_02.greetingFromLesson_02();
         lesson2.executeAllLesson_02();
         // System.out.println(5 + 7 % 3);
