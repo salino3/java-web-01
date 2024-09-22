@@ -1,5 +1,6 @@
 import classes.Sum;
 import classes.Lesson_01;
+import classes.lesson_02.Lesson_02;
 import classes.Operations;
 
 public class Main {
@@ -7,6 +8,7 @@ public class Main {
         Sum obj1 = new Sum();
         Operations op1 = new Operations();
         Lesson_01 lesson1 = new Lesson_01();
+        Lesson_02 lesson2 = new Lesson_02();
 
         // print and jump of line
         System.out.println("Hello, World!");
@@ -17,12 +19,14 @@ public class Main {
         // obj1.sumNumbers(args);
         Sum.sumNumbers(args);
         System.out.println("------------------------------------");
-        lesson1.printResultRating();
-        System.out.println(lesson1.getRatingValue());
-        System.out.println(lesson1.getRatingValue() + "10");
-        lesson1.executeAllLesson_01();
+        // lesson1.printResultRating();
+        // System.out.println(lesson1.getRatingValue());
+        // System.out.println(lesson1.getRatingValue() + "10");
+        // lesson1.executeAllLesson_01();
         Lesson_01.GreetingFromCalcutationInstruction();
-        System.out.println(5 + 7 % 3);
+        Lesson_02.greetingFromLesson_02();
+        lesson2.executeAllLesson_02();
+        // System.out.println(5 + 7 % 3);
 
     }
 }

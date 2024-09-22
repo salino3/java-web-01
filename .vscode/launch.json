@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "UtilLesson",
+      "request": "launch",
+      "mainClass": "classes.lesson_02.UtilLesson",
+      "projectName": "java-web-01_291efa87"
+    },
+    {
+      "type": "java",
       "name": "Sum",
       "request": "launch",
       "mainClass": "Sum",
